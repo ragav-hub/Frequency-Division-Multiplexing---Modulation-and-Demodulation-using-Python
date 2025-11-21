@@ -33,7 +33,8 @@ __Procedure__:
 7 — Demodulate each isolated channel (coherent) and low-pass filter to recover baseband
 
 __Program__:
-```
+
+```c
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
